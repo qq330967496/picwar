@@ -1,0 +1,208 @@
+/**
+*公共css
+**/
+@charset "UTF-8";
+body {
+    position: relative;
+    background-color: #efefef;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 16px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    color: #999;
+    line-height: 100%;
+}
+
+footer,header{
+
+    left:50%;
+    width:1200px;
+}
+header{
+    border-bottom:1px solid #888;
+    top:0;
+}
+footer{
+    border-top:1px solid #888;
+    bottom:0;
+}
+
+#main{
+    padding:15px 0;
+    height:600px;
+}
+
+
+blockquote,th, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, ul {
+    padding: 0;
+    margin: 0
+}
+
+body, input, textarea, select, h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a, a:link, a:visited, a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+
+em, i {
+    font-style: normal;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    border: none;
+    vertical-align: middle;
+}
+
+input, button {
+    -webkit-appearance: none;
+    outline: none;
+}
+
+input {
+    border: none;
+    outline: none;
+    resize: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+p {
+    word-break: break-all;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+
+
+/*对话框*/
+.dialog {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.dialog-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #000;
+    opacity: .7;
+    filter: alpha(opacity:70);
+}
+
+.dialog-box {
+    width: 400px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin: -80px 0 0 -200px;
+    z-index: 2;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dialog-detail {
+    padding: 30px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.dialog-opera {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #ddd;
+}
+
+.dialog-btn {
+    height: 50px;
+    border: none;
+    background: none;
+    color: #157efb;
+    font-size: 15px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.dialog-btn-close {
+    width: 100%;
+}
+
+.dialog-btn-cancel, .dialog-btn-ok {
+    width: 50%;
+    float: left;
+}
+
+.dialog-btn-ok {
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.dialog-prompt {
+    color: #fff;
+    max-width: 400px;
+    position: absolute;
+    z-index: 11000;
+    left: 50%;
+    margin-top: 0;
+    padding: 15px 20px;
+    top: 45%;
+    text-align: center;
+    border-radius: 10px;
+
+    /*文字不透明，背景透明*/
+    opacity:1;
+    filter:Alpha(opacity=1); /* IE8 以及更早的浏览器 */
+    background:rgba(0,0,0,0.8) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
