@@ -1,0 +1,49 @@
+#home .canvas_mod{
+    padding:15px 0;
+    margin:0 auto;
+    background-image: url("../images/bg_transparent.png");
+}
+#home canvas{
+    margin:0 auto;
+}
+.mod{
+    padding:15px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+#home input[type='text']{
+    border:1px solid #888;
+    padding:5px 10px;
+}
+#home .img_list img{
+    border:3px solid #efefef;
+    height:150px;
+}
+#home .img_list img.actived{
+    border:3px solid #55a532;
+}
+#home .img_list_item{
+    display: inline-block;
+    margin:3px;
+}
+.text_list{
+
+}
+.text_list_item{
+    border:3px solid #efefef;
+    display: inline-block;
+    width:19.48%;
+    margin:3px;
+    padding:10px;
+    text-align: center;
+}
+.text_list_item.actived{
+    border:3px solid #55a532;
+}
+/*.text_list_item{*/
+    /*display: none;*/
+/*}*/
+/*.text_list_item.actived{*/
+    /*display: block;*/
+/*}*/

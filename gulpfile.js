@@ -19,7 +19,7 @@ var gutil = require('gulp-util');
 //主机信息
 var host = {
     path: 'web/',
-    port: 8880,
+    port: 8881,
     html: 'app.html'
 };
 gulp.task('default', ['connect','copy:icon','md5:css','md5:js','copy:html','watch'],function() {
