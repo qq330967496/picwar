@@ -1,31 +1,31 @@
-#home .canvas_mod{
+#gifEdit .canvas_mod{
     padding:15px 0;
     margin:0 auto;
     background-image: url("../images/bg_transparent.png");
 }
-#home canvas{
+#gifEdit canvas{
     margin:0 auto;
 }
 
-#home input[type='text']{
+#gifEdit input[type='text']{
     border:1px solid #888;
     padding:5px 10px;
 }
-#home .img_list img{
+#gifEdit .img_list img{
     border:3px solid #efefef;
     height:150px;
 }
-#home .img_list img.actived{
+#gifEdit .img_list img.actived{
     border:3px solid #55a532;
 }
-#home .img_list_item{
+#gifEdit .img_list_item{
     display: inline-block;
     margin:3px;
 }
-#home .text_list{
+#gifEdit .text_list{
 
 }
-#home .text_list_item{
+#gifEdit .text_list_item{
     border:3px solid #efefef;
     display: inline-block;
     width:19.48%;
@@ -33,12 +33,12 @@
     padding:10px;
     text-align: center;
 }
-#home .text_list_item.actived{
+#gifEdit .text_list_item.actived{
     border:3px solid #55a532;
 }
 /*.text_list_item{*/
-    /*display: none;*/
+/*display: none;*/
 /*}*/
 /*.text_list_item.actived{*/
-    /*display: block;*/
+/*display: block;*/
 /*}*/

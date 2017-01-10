@@ -13,8 +13,7 @@ var CompFooter = require('../components/footer.vue');
 
 //路由组件
 var Home = require('../components/home.vue');
-var About = require('../components/about.vue');
-var Test = require('../components/test.vue');
+var GifEdit = require('../components/gifEdit.vue');
 
 utils.adaptive();
 
@@ -27,8 +26,7 @@ const router = new VueRouter({
     routes:[
         {path:'/', component: Home},
         {path:'/home', component: Home},
-        {path:'/about',component: About},
-        {path:'/test', component: Test},
+        {path:'/gifEdit', component: GifEdit},
     ]
 });
 

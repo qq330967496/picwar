@@ -1,5 +1,6 @@
 <template>
-    <div id="home">
+    <div id="gifEdit">
+
         <!--{{msg}}-->
         <div class="canvas_mod">
             <canvas id="myCanvas">
@@ -63,11 +64,8 @@
                 text_2_fontSize:25,
                 bg_color:'#fff',
                 data:[
-                    {id:'expression_0',name:'熊猫张学友',img:'../images/expression_0.png',bg_color:'#fff'},
-                    {id:'expression_3',name:'doge张学友',img:'../images/expression_3.png',bg_color:'#f8f8f8'},
-                    {id:'expression_1',name:'熊猫金馆长',img:'../images/expression_1.png',bg_color:'#fff'},
-                    {id:'expression_2',name:'教皇喝茶',img:'../images/expression_2.png',bg_color:'#fff'},
-                    {id:'expression_4',name:'蘑菇头哈哈',img:'../images/expression_4.png',bg_color:'#ececec'},
+                    {id:'gif_1',name:'吹头发',img:'../images/gif_1.gif',bg_color:'#fff'},
+                    {id:'gif_2',name:'吹头发2',img:'../images/gif_2.gif',bg_color:'#fff'},
                 ],
                 text_list:[
                     {text1:'屌爆了',text2:'JJ boom'},
@@ -100,7 +98,7 @@
                 $("#home").append($img[0]);
                 $img[0].onload = function(){
 
-                    //console.log($img[0].width+' X '+$img[0].height);
+//                    console.log($img[0].width+' X '+$img[0].height);
 
                     //设置画板
                     var c = $('#myCanvas')[0];

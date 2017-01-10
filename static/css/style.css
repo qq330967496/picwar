@@ -213,6 +213,11 @@ canvas{
     background:rgba(0,0,0,0.8) !important;
 }
 
+.mod{
+    padding:15px;
+    margin-bottom: 15px;
+    background: #fff;
+}
 
 
 
